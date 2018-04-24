@@ -1,0 +1,8 @@
+<% content_for :title do %>
+  <title>Hi-Low Game | Try</title>
+<% end %>
+<h1>Guess input: <%= params[:number] %></br/>
+    Your Guess is: <%= @result %><br/>
+    Attempts: <%= cookies[:counter] %><br/>
+    Name: <%= cookies[:name] %>
+</h1>
